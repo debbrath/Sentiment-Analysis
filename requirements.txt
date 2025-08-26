@@ -1,0 +1,24 @@
+# Data & ML
+numpy
+pandas
+scikit-learn
+torch
+datasets
+transformers
+gensim
+
+# Visualization
+matplotlib
+seaborn
+
+# Text preprocessing
+beautifulsoup4
+sentencepiece
+
+# FastAPI & server
+fastapi
+uvicorn
+
+# Dump model
+joblib
+
