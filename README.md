@@ -5,6 +5,7 @@ It includes training scripts, model persistence, and an API server for serving p
 <br/>
 
 ## 📂 Project Structure
+
 ```
 SENTIMENT-ANALYSIS/
 │
@@ -32,6 +33,7 @@ SENTIMENT-ANALYSIS/
 
 ```
 <br/>
+
 ## 🛠 Installation & Local Development
 ### 1. Prerequisites
 ```bash
