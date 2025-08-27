@@ -53,7 +53,8 @@ cd Sentiment-Analysis
 ### Step 4: Select the Interpreter
 1.	Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
 python -m venv venv
-![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image1.png)
+
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image3.png)
 
 ### 5. Create and activate a virtual environment
 ```bash
@@ -70,7 +71,9 @@ source env/bin/activate
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 cd F:\Python\Sentiment-Analysis
 .\.venv\Scripts\Activate.ps1
- 
+
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image1.png)
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image2.png)
  
 python -m pip install --upgrade pip setuptools wheel --use-pep517
 
