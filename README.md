@@ -72,7 +72,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 cd F:\Python\Sentiment-Analysis
 .\.venv\Scripts\Activate.ps1
 
-<br/>
+```
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image1.png)
 
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image2.png)
