@@ -78,7 +78,7 @@ cd F:\Python\Sentiment-Analysis
 
 ``` 
 python -m pip install --upgrade pip setuptools wheel --use-pep517
-
+```
 ### 6. Install dependencies
 ```bash
 pip install -r requirements.txt
@@ -96,8 +96,10 @@ pip install -r requirements.txt
 ```
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image5.png)
 ```
-<br/>
 
+
+```
+<br/>
 
 ## 🛠 Technologies Used
 
