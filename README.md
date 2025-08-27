@@ -51,7 +51,7 @@ cd Sentiment-Analysis
 - Open your project folder 
 
 ### Step 4: Select the Interpreter
-1.	Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
+- Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
 python -m venv venv
 
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image3.png)
@@ -67,7 +67,6 @@ On Linux/Mac
 python -m venv env
 source env/bin/activate
 
-
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 cd F:\Python\Sentiment-Analysis
 .\.venv\Scripts\Activate.ps1
@@ -76,21 +75,26 @@ cd F:\Python\Sentiment-Analysis
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image1.png)
 
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image2.png)
- 
+
+``` 
 python -m pip install --upgrade pip setuptools wheel --use-pep517
 
-```
 ### 6. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 ### 7. Train the model (if not already trained)
 ```bash
-(venv) PS F:\Python\Sentiment-Analysis> python -m app.model_train 
+(venv) PS F:\Python\Sentiment-Analysis> python -m app.model_train
+```
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image4.png)
+
 ```
 ### 8. Run locally
 ```bash
 (venv) PS F:\Python\Sentiment-Analysis> uvicorn app.main:app –reload
+```
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image5.png)
 ```
 <br/>
 
