@@ -95,6 +95,7 @@ pip install -r requirements.txt
 ```
 <br/>
 ## 🛠 Technologies Used
+
 Python 3.9+
 
 FastAPI – API framework
