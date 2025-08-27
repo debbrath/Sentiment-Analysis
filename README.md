@@ -90,6 +90,7 @@ pip install -r requirements.txt
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image4.png)
 
 ```
+```
 ### 8. Run locally
 ```bash
 (venv) PS F:\Python\Sentiment-Analysis> uvicorn app.main:app –reload
