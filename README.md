@@ -2,7 +2,6 @@
 
 This project implements a **Sentiment Analysis system** using Python, FastAPI, and machine learning models.  
 It includes training scripts, model persistence, and an API server for serving predictions.
-
 <br/>
 
 ## 📂 Project Structure
@@ -33,9 +32,7 @@ SENTIMENT-ANALYSIS/
 
 ```
 <br/>
-
 ## 🛠 Installation & Local Development
-
 ### 1. Prerequisites
 ```bash
 - Python 3.12.10
@@ -49,13 +46,10 @@ cd Sentiment-Analysis
 ### Step 3: Open VSCode
 - Launch VSCode.
 - Open your project folder 
-
 ### Step 4: Select the Interpreter
 - Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
 python -m venv venv
-
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image3.png)
-
 ### 5. Create and activate a virtual environment
 ```bash
 # On Windows PowerShell
@@ -88,7 +82,6 @@ pip install -r requirements.txt
 (venv) PS F:\Python\Sentiment-Analysis> python -m app.model_train
 ```
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image4.png)
-
 ```
 ```
 ### 8. Run locally
@@ -100,7 +93,6 @@ pip install -r requirements.txt
 ```
 <br/>
 ## 🛠 Technologies Used
-
 Python 3.9+
 
 FastAPI – API framework
@@ -109,9 +101,7 @@ PyTorch / Scikit-learn – Model training
 
 Pandas / NumPy – Data processing
 
-
 <br/>
-
 ---
 
 ✍️ Author
