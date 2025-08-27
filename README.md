@@ -92,6 +92,11 @@ pip install -r requirements.txt
 ```
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image5.png)
 ```
+### 9. Colab
+
+https://colab.research.google.com/drive/1ENlk9tA3MvkNLn_oQkJdwmWyXTv9adbR?usp=sharing
+
+
 ```
 <br/>
 
