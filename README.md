@@ -6,7 +6,7 @@ It includes training scripts, model persistence, and an API server for serving p
 ---
 
 ## 📂 Project Structure
-
+```
 SENTIMENT-ANALYSIS/
 │
 ├── app/                       # Main application package
