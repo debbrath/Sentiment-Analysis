@@ -1,4 +1,4 @@
-# 📝 Sentiment Analysis Project
+# Sentiment Analysis Project
 
 This project implements a **Sentiment Analysis system** using Python, FastAPI, and machine learning models.  
 It includes training scripts, model persistence, and an API server for serving predictions.
@@ -31,10 +31,10 @@ SENTIMENT-ANALYSIS/
 ├── run_server.py              # Script to run API server
 
 
-
-
+```
 
 ## 🛠 Installation & Local Development
+
 ### 1. Prerequisites
 - Python 3.12.10
 - pip (Python package manager)
