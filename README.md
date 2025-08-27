@@ -46,7 +46,16 @@ SENTIMENT-ANALYSIS/
 git clone https://github.com/debbrath/Sentiment-Analysis.git
 cd Sentiment-Analysis
 ```
-### 3. Create and activate a virtual environment
+### Step 3: Open VSCode
+- Launch VSCode.
+- Open your project folder 
+
+### Step 4: Select the Interpreter
+1.	Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
+python -m venv venv
+![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image1.png)
+
+### 5. Create and activate a virtual environment
 ```bash
 # On Windows PowerShell
 python -m venv venv
@@ -56,16 +65,25 @@ venv\Scripts\activate
 On Linux/Mac
 python -m venv env
 source env/bin/activate
+
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+cd F:\Python\Sentiment-Analysis
+.\.venv\Scripts\Activate.ps1
+ 
+ 
+python -m pip install --upgrade pip setuptools wheel --use-pep517
+
 ```
-### 3. Install dependencies
+### 6. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Train the model (if not already trained)
+### 7. Train the model (if not already trained)
 ```bash
 (venv) PS F:\Python\Sentiment-Analysis> python -m app.model_train 
 ```
-### 5. Run locally
+### 8. Run locally
 ```bash
 (venv) PS F:\Python\Sentiment-Analysis> uvicorn app.main:app –reload
 ```
