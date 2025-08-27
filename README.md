@@ -97,11 +97,8 @@ pip install -r requirements.txt
 ```
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image5.png)
 ```
-
-
 ```
 <br/>
-
 ## 🛠 Technologies Used
 
 Python 3.9+
