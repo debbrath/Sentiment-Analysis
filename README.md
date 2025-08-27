@@ -32,54 +32,46 @@ SENTIMENT-ANALYSIS/
 
 
 ```
-
+<br/>
 ## 🛠 Installation & Local Development
 
 ### 1. Prerequisites
+```bash
 - Python 3.12.10
 - pip (Python package manager)
+```
 ### 2. Clone the repository
+```bash
 git clone https://github.com/debbrath/Sentiment-Analysis.git
 cd Sentiment-Analysis
+```
 ### 3. Create and activate a virtual environment
+```bash
 # On Windows PowerShell
 python -m venv venv
-# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 venv\Scripts\activate
 
-# On Linux/Mac
+On Linux/Mac
 python -m venv env
 source env/bin/activate
-### 4. Install dependencies
+```
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-### 5. Train the model (if not already trained)
- 
+```
+### 4. Train the model (if not already trained)
+```bash
 (venv) PS F:\Python\Sentiment-Analysis> python -m app.model_train 
-
-### 6. Run locally
+```
+### 5. Run locally
+```bash
 (venv) PS F:\Python\Sentiment-Analysis> uvicorn app.main:app –reload
- 
+```
+<br/>
 
 
-![alt text](image.png)
-📡 API Usage
-
-Endpoint: POST /predict
-
-Input JSON:
-
-{
-  "text": "I love this product!"
-}
-
-
-Output JSON:
-
-{
-  "sentiment": "positive"
-}
-
-🛠 Technologies Used
+## 🛠 Technologies Used
 
 Python 3.9+
 
@@ -89,12 +81,14 @@ PyTorch / Scikit-learn – Model training
 
 Pandas / NumPy – Data processing
 
-📌 To Do
+```
+<br/>
+---
 
- Add dataset folder and preprocessing scripts
+✍️ Author
 
- Improve error handling in API
+Debbrath Debnath
 
- Add evaluation metrics visualization
+📫 [Connect on LinkedIn](https://www.linkedin.com/in/debbrathdebnath/)
 
- Deploy to Render/Heroku/Docker
+🌐 [GitHub Profile](https://github.com/debbrath) 
