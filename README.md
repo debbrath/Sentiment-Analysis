@@ -3,7 +3,7 @@
 This project implements a **Sentiment Analysis system** using Python, FastAPI, and machine learning models.  
 It includes training scripts, model persistence, and an API server for serving predictions.
 
----
+<br/>
 
 ## 📂 Project Structure
 ```
