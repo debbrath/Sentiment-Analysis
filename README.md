@@ -49,6 +49,28 @@ cd Sentiment-Analysis
 - Launch VSCode.
 - Open your project folder 
 ### Step 4: Select the Interpreter
+Open a terminal (`Ctrl+`` in VS Code) and run:
+```bash
+python --version
+
+If not found.
+
+- Open System Properties:
+
+  Press Win + R, type sysdm.cpl, press Enter.
+
+  Go to Advanced → Environment Variables.
+
+  Under System variables, select Path → Edit → New.
+
+- Paste:
+
+  C:\Users\<YourName>\AppData\Local\Programs\Python\Python312\
+
+  C:\Users\<YourName>\AppData\Local\Programs\Python\Python312\Scripts\
+
+  Save, then restart VS Code.
+
 - Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
 python -m venv venv
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image3.png)
