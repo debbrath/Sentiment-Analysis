@@ -72,8 +72,11 @@ If not found.
   Save, then restart VS Code.
 
 - Press Ctrl+Shift+P → type Python: Select Interpreter → Enter.
-python -m venv venv
+  python -m venv venv
+
 ![Screenshot](https://github.com/debbrath/Sentiment-Analysis/blob/main/images/image3.png)
+```
+
 ### 5. Create and activate a virtual environment
 ```bash
 # On Windows PowerShell
